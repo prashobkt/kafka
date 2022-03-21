@@ -1,0 +1,5 @@
+api_key="get api key from developer.twitter.com"
+api_secret="get api key from developer.twitter.com"
+bearer_token="get api key from developer.twitter.com"
+access_token="get api key from developer.twitter.com"
+access_secret="get api key from developer.twitter.com"
