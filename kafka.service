@@ -1,0 +1,12 @@
+[Unit]
+Description=kafka
+Requires=network.target remote-fs.target
+After=network.target remote-fs.target
+
+[Service]
+Type=simple
+ExecStart=/home/user/programs/kafka_2.12-3.1.0/bin/kafka-server-start.sh /home/user/programs/kafka_2.12-3.1.0/config/server.properties
+ExecStop=/home/user/programs/kafka_2.12-3.1.0/bin/kafka-server-stop.sh
+
+[Install]
+WantedBy=multi-user.target
